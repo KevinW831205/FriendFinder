@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Friend Finder</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Tell Us About You</h1>
+
+        <form>
+            <div class="form-group">
+                <label for="name">Name (required)</label>
+                <input type="text" class="form-control" id="name" placeholder="John Doe">
+                <div id="nameValidation" class="surveyValidation">
+                    Please Enter a Name
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="photo">Link to an Image (required)</label>
+                <input type="text" class="form-control" id="photo" placeholder="some link">
+                <div id="photoValidation" class="surveyValidation">
+                    Please Enter a link to an image
+                </div>
+            </div>
+
+
+            <label class="my-1 mr-2" for="question1"><strong>Q1. </strong>Your mind is always buzzing
+                with unexplored ideas and plans.</label>
+            <select class="custom-select my-1 mr-sm-2" id="question1">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Agree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Disagree)</option>
+            </select>
+            <div id="question1Validation" class="surveyValidation">
+                Please choose a number
+            </div>
+
+
+
+            <label class="my-1 mr-2" for="question2"><strong>Q2. </strong>Generally speaking, you rely more on your
+                experience than your imagination.</label>
+            <select class="custom-select my-1 mr-sm-2" id="question2">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Agree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Disagree)</option>
+            </select>
+            <div id="question2Validation" class="surveyValidation">
+                Please choose a number
+            </div>
+
+
+            <label class="my-1 mr-2" for="question3"><strong>Q3. </strong>You find it easy to stay relaxed and focused
+                even when there is some pressure.</label>
+            <select class="custom-select my-1 mr-sm-2" id="question3">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Agree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Disagree)</option>
+            </select>
+            <div id="question3Validation" class="surveyValidation">
+                Please choose a number
+            </div>
+
+
+            <label class="my-1 mr-2" for="question4"><strong>Q4. </strong>You rarely do something just out of sheer
+                curiosity.</label>
+            <select class="custom-select my-1 mr-sm-2" id="question4">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Agree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Disagree)</option>
+            </select>
+            <div id="question4Validation" class="surveyValidation">
+                Please choose a number
+            </div>
+
+
+            <label class="my-1 mr-2" for="question5"><strong>Q5. </strong>People can rarely upset you.</label>
+            <select class="custom-select my-1 mr-sm-2" id="question5">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Agree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Disagree)</option>
+            </select>
+            <div id="question5Validation" class="surveyValidation">
+                Please choose a number
+            </div>
+
+
+            <label class="my-1 mr-2" for="question6"><strong>Q6. </strong>It is often difficult for you to relate to
+                other people’s feelings.</label>
+            <select class="custom-select my-1 mr-sm-2" id="question6">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Agree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Disagree)</option>
+            </select>
+            <div id="question6Validation" class="surveyValidation">
+                Please choose a number
+            </div>
+
+
+            <label class="my-1 mr-2" for="question7"><strong>Q7. </strong>In a discussion, truth should be more
+                important than people’s sensitivities.</label>
+            <select class="custom-select my-1 mr-sm-2" id="question7">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Agree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Disagree)</option>
+            </select>
+            <div id="question7Validation" class="surveyValidation">
+                Please choose a number
+            </div>
+
+            <label class="my-1 mr-2" for="question8"><strong>Q8. </strong>You rarely get carried away by fantasies and
+                ideas.</label>
+            <select class="custom-select my-1 mr-sm-2" id="question8">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Agree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Disagree)</option>
+            </select>
+            <div id="question8Validation" class="surveyValidation">
+                Please choose a number
+            </div>
+
+
+            <label class="my-1 mr-2" for="question9"><strong>Q9. </strong>You think that everyone’s views should be
+                respected regardless of whether they are supported by facts or not.</label>
+            <select class="custom-select my-1 mr-sm-2" id="question9">
+                <option selected>Choose...</option>
+                <option value="1">1 (Strongly Agree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Disagree)</option>
+            </select>
+            <div id="question9Validation" class="surveyValidation">
+                Please choose a number
+            </div>
+
+
+            <label class="my-1 mr-2" for="question10"><strong>Q10. </strong>You feel more energetic after spending time
+                with a group of people.</label>
+            <select class="custom-select my-1 mr-sm-2" id="question10">
+                <option selected>Choose...</option>
+                <option value="1">1 (strongly Agree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Disagree)</option>
+            </select>
+            <div id="question10Validation" class="surveyValidation">
+                Please choose a number
+            </div>
+
+
+            <!-- Form submit button + Modal trigger -->
+            <button type="submit" class="btn btn-primary my-3" id="surveySubmit">Submit</button>
+            <button type="submit" class="btn btn-primary my-3" id="modalTrigger" data-toggle="modal"
+                data-target="#bestMatch"></button>
+            <div id="submitValidation" class="surveyValidation">
+                Invalid Response, please check the form again.
+            </div>
+
+        </form>
+
+        <!-- Modal -->
+
+        <div class="modal fade" id="bestMatch" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Your Best Match</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" id="friendDisplay">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <footer>
+            <a href="/api/Friends">API Friend List</a> |
+            <a href="https://github.com/KevinW831205/FriendFinder" target="blank">Github Repo</a>
+        </footer>
+
+
+    </div>
+
+
+
+</body>
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+<script src="/assets/javascript"></script>
+
+</html>

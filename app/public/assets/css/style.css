@@ -1,0 +1,13 @@
+footer{
+    margin-bottom: 300px;
+}
+
+.surveyValidation{
+    display:none;
+    color: red;
+    font-size: 14px;
+}
+
+#modalTrigger{
+    display: none;
+}
