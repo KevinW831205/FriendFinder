@@ -52,7 +52,7 @@ var friendFinder = {
     postInfo: function (path, friendData) {
         //takes path of post req listener and data to pass into post request
         $.post(path, friendData)
-            .then(function (data) { 
+            .then(function (data) {
                 console.log(data);
             });
     }
@@ -134,7 +134,16 @@ $("#surveySubmit").on("click", function (event) {
         // trigger modal to popup
         $("#modalTrigger").click();
 
+
+        // reset entries
+        $("#name").val("");
+        $("#photo").val("");
+        for (var i = 1; i <= friendFinder.surveyLength; i++) {
+            $("#question" + i).val("Choose...");
+        };
     };
+
+
 
 
 
